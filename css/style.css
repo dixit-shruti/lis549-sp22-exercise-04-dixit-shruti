@@ -1,15 +1,16 @@
 
 /* navbar rules */
-nav{position: fixed; 
+nav {
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%; 
     color: white;
     background-color: #2C96BF;
-    padding:0.5rem, 0.5rem, 1rem, 0.5rem;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
-nav,a{
+nav a{
     margin: 0;
     padding: 0;
     color: black;
@@ -23,14 +24,14 @@ nav a:hover{
 
 }
 
-nav,li{
+nav li{
    display: inline;
-   margin: 0,1rem,0,1rem;
+   margin: 0 1rem 0 1rem;
 }
 
 /* Header rules */
 
-header{
+header {
     color: white;
     padding-top: 6rem;
     padding-bottom: 1rem;
@@ -41,17 +42,17 @@ header{
 
 .motto{
     font-style: italic;
-    font-size: 1.25rem ;
+    font-size: 1.25rem;
 }
 
-/*menu rules */
-
+/* body rules */
 body{
     font-family: 'Nunito Sans', 'Arial', sans-serif;
     font-size: 16px;
 }
-h1,h2 {
+h1, h2 {
     font-family: 'Raleway', 'Helvetica', sans-serif;
+    font-weight: 300;
 }
 
 h1{
@@ -70,6 +71,7 @@ h2{
 position: relative;
 top: 5px;
 }
+
 .container{
     max-width: 960px;
     margin-right: auto;
@@ -77,7 +79,57 @@ top: 5px;
     padding: 1rem;
 }
 
-p,dl{
+p dl{
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
+#about{
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+/* footer rules */
+
+footer{
+    color: white;
+    background-color: #3E1305;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+    line-height: 1.25;
+}
+
+p:last-child{
+    padding-top: 8px;
+}
+
+/*menu rules */
+
+#menu{
+    background-color: #f0f0f0;
+}
+
+ img{
+    height:200px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+dt{
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+dd p{
+    margin: 0;
+}
+
+
+
+
