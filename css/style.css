@@ -1,4 +1,6 @@
 
+
+
 /* navbar rules */
 nav {
     position: fixed; 
@@ -78,17 +80,6 @@ h2{
     background-color: #f0f0f0;
 }
 
-.container dl dd img{
-    height: 200px;
-    border-radius: 15px 15px 15px 15px;
-}
-
-.container dt{
-    font-size: 125%;
-    font-weight: bold;
-    margin-top: 1rem;
-}
-
 .container{
     max-width: 960px;
     margin-right: auto;
@@ -96,10 +87,23 @@ h2{
     padding: 1rem;
 }
 
-dl p{
-    margin-top: 0;
-    margin-bottom: 1rem;
+.container dl dt{
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 1rem;
 }
+
+.container dl dd p{
+    margin: 0;
+    
+}
+
+.container dl dd img{
+    height: 200px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
 
 #about{
     background-color: #e0e0e0;
